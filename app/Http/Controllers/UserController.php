@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Role;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -14,7 +15,10 @@ class UserController extends Controller
     }
 
     public function create(){
-        return view('user.create');
+        $data = [
+            "roles" => Role::all()
+        ];
+        return view('user.create',$data);
     }
 
     public function store(Request $request){
@@ -41,7 +45,8 @@ class UserController extends Controller
         return view('user.show', compact('user'));
     }
 
-    public function edit(User $user){
+    public function edit($id){
+        $user = User::findOrFail($id);
         return view('user.edit', compact('user'));
     }
 
@@ -49,18 +54,11 @@ class UserController extends Controller
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|char|email|max:255|unique:user,email'. $user->id,
-            'password' => 'nullable|char|min:8|confirmed',
         ]);
-
-        if ($request->failed('password')){
-            $validatedData['password'] = bcrypt($validatedData['password']);
-        } else {
-            unset($validatedData['password']);
-        }
 
         $user->update($validatedData);
 
-        return redirect()->route('user,index')->with('success', 'data berhasil di update.');
+        return redirect()->route('user.index')->with('success', 'data berhasil di update.');
     }
 
     public function destroy(User $user){
