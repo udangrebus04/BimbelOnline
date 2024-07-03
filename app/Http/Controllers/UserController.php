@@ -45,9 +45,12 @@ class UserController extends Controller
         return view('user.show', compact('user'));
     }
 
-    public function edit($id){
-        $user = User::findOrFail($id);
-        return view('user.edit', compact('user'));
+        // In your controller method
+    public function edit(User $user)
+    {
+        $roles = Role::all(); // Assuming you have a Role model
+        $role_id = $user->role_id; // Define the $role_id variable
+        return view('user.edit', compact('user', 'roles', 'role_id'));
     }
 
     public function update(Request $request, User $user){
