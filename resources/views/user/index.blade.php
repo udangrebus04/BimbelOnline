@@ -6,7 +6,7 @@
         <div class="col-md-15">
             <div class="card">
                 <div class="card-header">{{ __('USER') }}</div>
-
+                    <h1 align="center">Data User</h1>
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -68,7 +68,7 @@
                     </td>
                 </tr>
                 @endforeach
-            </tbody
+            </tbody>
             </table>
         </div>
     </div>
