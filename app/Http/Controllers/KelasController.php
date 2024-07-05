@@ -48,13 +48,13 @@ class KelasController extends Controller
         $kelas->jumlah_siswa = $request->input('jumlah_siswa');
         $kelas->jadwal_kelas = $request->input('jadwal_kelas');
         $kelas->save();
-        return redirect()->route('bimbel.index');
+        return redirect()->route('bimbel.index')->with('success', 'Kelas Berhasil Diperbaharui');
     }
 
     public function destroy($id)
     {
         $kelas = Kelas::find($id);
         $kelas->delete();
-        return redirect()->route('bimbel.index');
+        return redirect()->route('bimbel.index')->with('success', 'Kelas Berhasil Dihapus');
     }
 }
