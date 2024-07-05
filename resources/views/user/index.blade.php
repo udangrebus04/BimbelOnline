@@ -6,7 +6,7 @@
         <div class="col-md-15">
             <div class="card">
                 <div class="card-header">{{ __('USER') }}</div>
-                    <h1 align="center">Data User</h1>
+                    <h1 align="center">DATA USER</h1>
                 <div class="card-body">
                     @if ($message = Session::get('success'))
                     <div class="alert alert-success mt-2" role="alert">
