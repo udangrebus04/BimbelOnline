@@ -6,7 +6,7 @@
         <div class="col-md-15">
             <div class="card">
                 <div class="card-header">{{ __('USER') }}</div>
-
+                    <h1 align="center">Data User</h1>
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -40,7 +40,7 @@
             </tr>
             <thead>
                 <tr align="center">
-                <th>ID</th>
+                <th>No</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Created At</th>
@@ -51,7 +51,7 @@
             <tbody>
                 @foreach($users as $user)
                 <tr>
-                    <td>{{ $user->id }}</td>
+                    <td>{{ $loop->iteration }}</td>
                     <td>{{ $user->name }}</td>
                     <td>{{ $user->email }}</td>
                     <td>{{ $user->created_at }}</td>
@@ -68,7 +68,7 @@
                     </td>
                 </tr>
                 @endforeach
-            </tbody
+            </tbody>
             </table>
         </div>
     </div>

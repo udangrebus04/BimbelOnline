@@ -38,7 +38,7 @@ class UserController extends Controller
             'role_id' => $request->input('role_id'),
         ]);
 
-        return redirect()->route('user.index')->with('success', 'User Baru Berhasil Ditambahkan');
+        return redirect()->route('user.index')->with('success', 'Data Baru Berhasil Ditambahkan');
     }
 
     public function show(User $user){
@@ -48,24 +48,25 @@ class UserController extends Controller
         // In your controller method
     public function edit(User $user)
     {
-        $roles = Role::all(); // Assuming you have a Role model
-        $role_id = $user->role_id; // Define the $role_id variable
-        return view('user.edit', compact('user', 'roles', 'role_id'));
+        $roles = Role::all();
+        return view('user.edit', compact('user', 'roles'));
     }
 
-    public function update(Request $request, User $user){
+    public function update(Request $request, User $user)
+    {
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
-            'email' => 'required|char|email|max:255|unique:user,email'. $user->id,
+            'email' => 'required|email|max:255|unique:users,email,' . $user->id,
+            'role_id' => 'required|numeric',
         ]);
-
+    
         $user->update($validatedData);
-
-        return redirect()->route('user.index')->with('success', 'data berhasil di update.');
+    
+        return redirect()->route('user.index')->with('success', 'Data Berhasil Diperbaharui');
     }
 
     public function destroy(User $user){
         $user->delete();
-        return redirect()->route('user.index')->with('success', 'data berhasil dihapus.');
+        return redirect()->route('user.index')->with('success', 'Data Berhasil Dihapus.');
     }
 }
