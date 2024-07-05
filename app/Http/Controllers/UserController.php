@@ -38,7 +38,7 @@ class UserController extends Controller
             'role_id' => $request->input('role_id'),
         ]);
 
-        return redirect()->route('user.index')->with('success', 'User Baru Berhasil Ditambahkan');
+        return redirect()->route('user.index')->with('success', 'Data Baru Berhasil Ditambahkan');
     }
 
     public function show(User $user){
@@ -62,11 +62,11 @@ class UserController extends Controller
     
         $user->update($validatedData);
     
-        return redirect()->route('user.index')->with('success', 'User updated successfully!');
+        return redirect()->route('user.index')->with('success', 'Data Berhasil Diperbaharui');
     }
 
     public function destroy(User $user){
         $user->delete();
-        return redirect()->route('user.index')->with('success', 'data berhasil dihapus.');
+        return redirect()->route('user.index')->with('success', 'Data Berhasil Dihapus.');
     }
 }
