@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama_kelas');
             $table->integer('jumlah_siswa');
+            $table->string('jadwal_kelas');
             $table->timestamps();
         });
     }
