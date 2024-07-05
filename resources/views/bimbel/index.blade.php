@@ -23,6 +23,7 @@
                                     <th>Nama Kelas</th>
                                     <th>Jumlah Siswa</th>
                                     <th>Jadwal Kelas</th>
+                                    <th>Nama Guru</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
@@ -33,6 +34,7 @@
                                         <td>{{ $k->nama_kelas }}</td>
                                         <td>{{ $k->jumlah_siswa }}</td>
                                         <td>{{ $k->jadwal_kelas }}</td>
+                                        <td>{{ $k->guru }}</td>
                                         <td>
                                             <a href="{{ route('bimbel.edit', $k->id) }}" class="btn btn-sm btn-primary">Edit</a>
                                             <form action="{{ route('bimbel.destroy', $k->id) }}" method="post" style="display: inline;">
