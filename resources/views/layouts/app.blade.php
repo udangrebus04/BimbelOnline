@@ -30,7 +30,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('user.index') }}">{{ __('User') }}</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('bimbel.index') }}">{{ __('Bimbel') }}</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -65,9 +72,6 @@
                                         @csrf
                                     </form>
                                 </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('user.index') }}">{{ __('User') }}</a>
                             </li>
                         @endguest
                     </ul>
