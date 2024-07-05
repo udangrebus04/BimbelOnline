@@ -8,11 +8,11 @@
                 <div class="card-header">{{ __('USER') }}</div>
                     <h1 align="center">Data User</h1>
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                    @if ($message = Session::get('success'))
+                    <div class="alert alert-success mt-2" role="alert">
+                        <p>{{ $message }}</p>
+                    </div>
+                @endif
     {{-- <h1 align="center">User</h1>
     <button type="submit"><a href="{{ route('user.create') }}">Buat User Baru</a></button>
     <ul>
@@ -28,10 +28,6 @@
         </li>  
         @endforeach
     </ul> --}}
-
-    @if (session('success'))
-        <div>{{ session('success') }}</div>
-    @endif  
 
     <div class="card-body">
         <table class="table">

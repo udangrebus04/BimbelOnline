@@ -7,13 +7,14 @@
                 <div class="card">
                     <div class="card-header">Daftar Kelas</div>
                     <div class="card-body">
-                        @if (session('status'))
-                            <div class="alert alert-success" role="alert">
-                                {{ session('status') }}
-                            </div>
-                        @endif
+                        @if ($message = Session::get('success'))
+                        <div class="alert alert-success mt-2" role="alert">
+                            <p>{{ $message }}</p>
+                        </div>
+                    @endif
 
                         <table class="table table-striped">
+                            <h1 align="center">DAFTAR KELAS</h1>
                             <thead>
                                 <tr>
                                     <a href="{{ route('bimbel.create') }}" class="btn btn-sm btn-success">Tambah Kelas</a>
