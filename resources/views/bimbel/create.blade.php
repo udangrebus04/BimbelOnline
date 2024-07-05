@@ -21,6 +21,11 @@
                                 <input type="number" class="form-control" id="jumlah_siswa" name="jumlah_siswa" required>
                             </div>
 
+                            <div class="form-group">
+                                <label for="jadwal_kelas">Jadwal Kelas</label>
+                                <input type="text" class="form-control" id="jadwal_kelas" name="jadwal_kelas" required>
+                            </div>
+
                             <button type="submit" class="btn btn-sm btn-primary">Tambah Kelas</button>
                         </form>
                     </div>

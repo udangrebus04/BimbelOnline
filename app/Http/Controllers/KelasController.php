@@ -23,11 +23,13 @@ class KelasController extends Controller
         $request->validate([
             'nama_kelas' => ['required', 'string'],
             'jumlah_siswa' => ['required','integer'],
+            'jadwal_kelas' => ['required', 'string'],
         ]);
 
         $kelas = Kelas::create([
             'nama_kelas' => $request->input('nama_kelas'),
             'jumlah_siswa' => $request->input('jumlah_siswa'),
+            'jadwal_kelas' => $request->input('jadwal_kelas'),
         ]);
 
         return redirect()->route('bimbel.index')->with('success', 'Kelas Baru Berhasil Ditambahkan');
@@ -44,6 +46,7 @@ class KelasController extends Controller
         $kelas = Kelas::find($id);
         $kelas->nama_kelas = $request->input('nama_kelas');
         $kelas->jumlah_siswa = $request->input('jumlah_siswa');
+        $kelas->jadwal_kelas = $request->input('jadwal_kelas');
         $kelas->save();
         return redirect()->route('bimbel.index');
     }
