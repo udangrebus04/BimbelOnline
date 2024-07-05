@@ -13,7 +13,7 @@
                         <form method="POST" action="{{ route('user.update', $user->id) }}">
                             @csrf
                             @method('PUT')
-                            <div class="form-group row">
+                            <div class="form-group row mb-4">
                                 <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                                 <div class="col-md-6">
@@ -26,7 +26,7 @@
                                     @enderror
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="form-group row mb-4">
                                 <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Email') }}</label>
                                 <div class="col-md-6">
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $user->email }}" required autocomplete="email">
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row">
+                            <div class="form-group row mb-4">
                                 <label for="role_id" class="col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
                                 <div class="col-md-6">
                                     <select id="role_id" class="form-control @error('role_id') is-invalid @enderror" name="role_id" required>
