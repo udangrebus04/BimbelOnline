@@ -21,7 +21,7 @@
           <a href="#penawaran" class="text-sm font-semibold leading-6 text-gray-900">Penawaran</a>
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900">test</a>
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900">test</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">test</a>
         </div>
 
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -30,9 +30,9 @@
         </div>
       </nav>
       <!-- Mobile menu, show/hide based on menu open state. -->
-      <div class="lg:hidden" role="dialog" aria-modal="true">
+      {{-- <div class="lg:hidden" role="dialog" aria-modal="true"> --}}
         <!-- Background backdrop, show/hide based on slide-over state. -->
-        <div class="fixed inset-0 z-50"></div>
+        {{-- <div class="fixed inset-0 z-50"></div>
         <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
@@ -62,7 +62,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
     </header>
   
     <div class="relative isolate px-6 pt-14 lg:px-8">
@@ -74,19 +74,14 @@
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">EduPlus+:</h1>
           <br>
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Langkah Cerdas Menuju Sukses</h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">ini deskripsi ceritanya</p>
+          <p class="mt-6 text-lg leading-8 text-gray-600">
+            Platform bimbingan belajar online terdepan yang menyediakan materi pendidikan berkualitas untuk siswa dari berbagai jenjang. Dengan fitur interaktif dan tutor berpengalaman, EduPlus+ membantu siswa meraih prestasi terbaik mereka melalui pembelajaran yang menyenangkan dan efektif. Akses ribuan video pembelajaran, latihan soal, dan kelas live kapan saja dan di mana saja. <br>Bergabunglah dengan EduPlus+ dan wujudkan potensi akademismu!
+          </p>
           <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
-            </div>
-          </div>
-            <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
-            </div>
             <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
                 <div class="text-center">
                 <h2 id="penawaran" class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">SPECIAL OFFER!</h2>
+                <p class="mt-6 text-lg leading-8 text-gray-600">Hai Sobat EduPlus+! Ada apa nih yang menarik dari EduPlus+? Yuk, cek sekarang juga yang ada dibawah ini!</p>
                 </div>
                 <div class="bg-white dark:bg-gray-800">
                     <div class="container px-6 py-8 mx-auto">
@@ -94,7 +89,7 @@
                             <div class="flex flex-col w-full max-w-sm p-10 space-y-10 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                                 <div class="flex-shrink-0">
                                     <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
-                                        Paket 1 Bulan
+                                        Paket Tipe 1
                                     </h2>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -103,105 +98,67 @@
                                 </div>
                                 <ul class="flex-1 space-y-4">
                                     <li class="text-gray-500 dark:text-gray-400">
-                                        Up to 5 projects
+                                        Akses semua mata pelajaran
                                     </li>
                                     <li class="text-gray-500 dark:text-gray-400">
-                                        Up to 10 collaborators
+                                        Akses ke latihan soal
                                     </li>
                                     <li class="text-gray-500 dark:text-gray-400">
-                                        2Gb of storage
+                                        Mendapat rangkuman materi setelah bab selesai
                                     </li>
                                 </ul>
             
-                                <button
-                                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                                >
-                                    Rp.185.000/bulan
-                                </button>
+                                <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">Rp.50.000/bulan</button>
                             </div>
             
-                            <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                                <div class="flex-shrink-0">
-                                    <h2
-                                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                                    >
-                                        Profesional
-                                    </h2>
-                                </div>
-                                <div class="flex-shrink-0">
-                                    <span
-                                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                                    >
-                                        $24.90
-                                    </span>
-                                    <span class="text-gray-500 dark:text-gray-400">
-                                        /month
-                                    </span>
-                                </div>
-                                <ul class="flex-1 space-y-4">
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        Up to 10 projects
-                                    </li>
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        Up to 20 collaborators
-                                    </li>
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        10Gb of storage
-                                    </li>
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        Real-time collaborations
-                                    </li>
-                                </ul>
+                            <div class="flex flex-col w-full max-w-sm p-10 space-y-10 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                              <div class="flex-shrink-0">
+                                  <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                                      Paket Tipe 2
+                                  </h2>
+                              </div>
+                              <div class="flex-shrink-0">
+                                  <span
+                                      class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100">Fokus</span>
+                              </div>
+                              <ul class="flex-1 space-y-4">
+                                  <li class="text-gray-500 dark:text-gray-400">
+                                      Semua akses Paket Tipe 1
+                                  </li>
+                                  <li class="text-gray-500 dark:text-gray-400">
+                                      Pemantapan persiapan Ujian Akhir & UTBK
+                                  </li>
+                                  <li class="text-gray-500 dark:text-gray-400">
+                                      Akses ke Try Out berkala
+                                  </li>
+                              </ul>
+          
+                              <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">Rp.130.000/bulan</button>
+                          </div>
             
-                                <button
-                                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                                >
-                                    Start free trial
-                                </button>
+                          <div class="flex flex-col w-full max-w-sm p-10 space-y-10 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+                            <div class="flex-shrink-0">
+                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                                    Paket Tipe 3
+                                </h2>
                             </div>
-            
-                            <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                                <div class="flex-shrink-0">
-                                    <h2
-                                        class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                                    >
-                                        Expert
-                                    </h2>
-                                </div>
-                                <div class="flex-shrink-0">
-                                    <span
-                                        class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                                    >
-                                        $49.90
-                                    </span>
-                                    <span class="text-gray-500 dark:text-gray-400">
-                                        /month
-                                    </span>
-                                </div>
-                                <ul class="flex-1 space-y-4">
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        Unlimited projects
-                                    </li>
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        Unlimited collaborators
-                                    </li>
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        Unlimited storage
-                                    </li>
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        Real-time collaborations
-                                    </li>
-                                    <li class="text-gray-500 dark:text-gray-400">
-                                        24x7 Support
-                                    </li>
-                                </ul>
-            
-                                <button
-                                    class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                                >
-                                    Start free trial
-                                </button>
+                            <div class="flex-shrink-0">
+                                <span
+                                    class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100">Super</span>
                             </div>
+                            <ul class="flex-1 space-y-4">
+                                <li class="text-gray-500 dark:text-gray-400">
+                                    Semua Akses Paket Tipe 1 & 2
+                                </li>
+                                <li class="text-gray-500 dark:text-gray-400">
+                                    Konseling bersama tim konselor berpengalaman
+                                </li>
+                                <li class="text-gray-500 dark:text-gray-400">
+                                    Akses bertanya PR
+                                </li>
+                            </ul>
+        
+                            <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">Rp.350.000/bulan</button>
                         </div>
                     </div>
                 </div>
