@@ -22,7 +22,6 @@
         <div class="hidden lg:flex lg:gap-x-12">
           <a href="#penawaran" class="text-sm font-semibold leading-6 text-gray-900">Penawaran</a>
           <a href="#testimoni" class="text-sm font-semibold leading-6 text-gray-900">Testimoni</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">test</a>
           <a href="#about" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
         </div>
 
@@ -122,8 +121,8 @@
                                         Mendapat rangkuman materi setelah bab selesai
                                     </li>
                                 </ul>
-            
-                                <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.50.000/bulan</button>
+                                <a href="/subs">
+                                <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.50.000/bulan</button></a>
                             </div>
             
                             <div class="flex flex-col w-full max-w-sm p-10 space-y-10 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
@@ -147,8 +146,8 @@
                                       Akses ke Try Out berkala
                                   </li>
                               </ul>
-          
-                              <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.130.000/bulan</button>
+                              <a href="/subs2">
+                              <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.130.000/bulan</button></a>
                           </div>
             
                           <div class="flex flex-col w-full max-w-sm p-10 space-y-10 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
@@ -172,7 +171,8 @@
                                     Akses bertanya PR
                                 </li>
                             </ul>
-                            <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.350.000/bulan</button>
+                            <a href="subs3">
+                            <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.350.000/bulan</button></a>
                         </div>
                     </div>
                 </div>

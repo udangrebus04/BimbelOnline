@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\KelasController;
+use App\Http\Controllers\SubsController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -29,3 +30,7 @@ Route::get('/bimbel.create', [KelasController::class, 'create'])->name('/bimbel.
 Route::post('/bimbel.store', [KelasController::class, 'store'])->name('/bimbel.store');
 Route::get('/bimbel/{id}/edit', [KelasController::class, 'edit'])->name('bimbel.edit');
 Route::put('/bimbel/{id}', [KelasController::class, 'update'])->name('bimbel.update');
+
+Route::get('/subs', [SubsController::class, 'subs'])->name('/subs');
+Route::get('/subs2', [SubsController::class, 'subs2'])->name('/subs2');
+Route::get('/subs3', [SubsController::class, 'subs3'])->name('/subs3');
