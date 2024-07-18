@@ -26,6 +26,26 @@ class LoginController extends Controller
      *
      * @var string
      */
+    // protected function authenticated(Request $request, $user)
+    // {
+    //     if ($user->role_id == '1') {
+    //         return redirect()->route('/user.index'); // Ganti dengan route admin dashboard yang sesuai
+    //     }
+
+    //     return redirect('/'); // Redirect ke halaman home atau halaman lain untuk user non-admin
+    // }
+
+    protected function redirectTo()
+    {
+        $role_id = auth()->user()->role_id;
+
+        if ($role_id === 1) {
+            return '/user';
+        } else {
+            return '/';
+        }
+    }
+
     protected $redirectTo = '/user';
     //     protected function authenticated(Request $request, $user)
     // {
