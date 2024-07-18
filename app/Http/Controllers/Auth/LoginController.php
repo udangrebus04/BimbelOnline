@@ -42,7 +42,7 @@ class LoginController extends Controller
         if ($role_id === 1) {
             return '/user';
         } else {
-            return '/bimbel';
+            return '/';
         }
     }
 

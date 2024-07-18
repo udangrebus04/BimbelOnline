@@ -27,8 +27,22 @@
         </div>
 
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a class="text-sm font-semibold leading-6 text-gray-900 px-3 py-2" href="{{ route('login') }}">Login</a>
-                <a class="text-sm font-semibold leading-6 text-gray-900 px-3 py-2" href="{{ route('register') }}">Register</a>
+          @guest   
+          <a class="text-sm font-semibold leading-6 text-gray-900 px-3 py-2" href="{{ route('login') }}">Login</a>
+          <a class="text-sm font-semibold leading-6 text-gray-900 px-3 py-2" href="{{ route('register') }}">Register</a>
+          @endguest
+          @auth
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+          @endauth
         </div>
       </nav>
       <!-- Mobile menu, show/hide based on menu open state. -->
