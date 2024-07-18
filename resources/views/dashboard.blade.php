@@ -23,7 +23,7 @@
           <a href="#penawaran" class="text-sm font-semibold leading-6 text-gray-900">Penawaran</a>
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900">test</a>
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900">test</a>
-          <a href="#about" class="text-sm font-semibold leading-6 text-gray-900">about</a>
+          <a href="#about" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
         </div>
 
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -227,7 +227,7 @@
       <div class="w-full md:w-4/12 px-4 mx-auto text-center">
         <div class="text-sm text-blueGray-500 font-semibold py-1">
           Copyright © <span id="get-current-year">2021</span><a href="https://www.creative-tim.com/product/notus-js" class="text-blueGray-500 hover:text-gray-800" target="_blank">Edu Plus by
-          <a href="https://www.creative-tim.com?ref=njs-profile" class="text-blueGray-500 hover:text-blueGray-800">Tim 5</a>.
+          <a href="https://www.creative-tim.com?ref=njs-profile" class="text-blueGray-500 hover:text-blueGray-800">Kelompok 5</a>.
         </div>
       </div>
     </div>
