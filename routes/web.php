@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\KelasController;
+use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\SubsController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
@@ -34,3 +35,6 @@ Route::put('/bimbel/{id}', [KelasController::class, 'update'])->name('bimbel.upd
 Route::get('/subs', [SubsController::class, 'subs'])->name('/subs');
 Route::get('/subs2', [SubsController::class, 'subs2'])->name('/subs2');
 Route::get('/subs3', [SubsController::class, 'subs3'])->name('/subs3');
+
+Route::get('register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('register', [RegisterController::class, 'register'])->name('register');
