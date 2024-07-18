@@ -35,6 +35,17 @@ class LoginController extends Controller
     //     return redirect('/'); // Redirect ke halaman home atau halaman lain untuk user non-admin
     // }
 
+    protected function redirectTo()
+    {
+        $role_id = auth()->user()->role_id;
+
+        if ($role_id === 1) {
+            return '/user';
+        } else {
+            return '/bimbel';
+        }
+    }
+
     protected $redirectTo = '/user';
     //     protected function authenticated(Request $request, $user)
     // {
