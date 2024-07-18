@@ -11,5 +11,6 @@ class Kelas extends Model
         'nama_kelas',
         'jumlah_siswa',
         'jadwal_kelas',
+        'guru',
     ];
 }

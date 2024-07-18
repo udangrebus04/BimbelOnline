@@ -24,12 +24,14 @@ class KelasController extends Controller
             'nama_kelas' => ['required', 'string'],
             'jumlah_siswa' => ['required','integer'],
             'jadwal_kelas' => ['required', 'string'],
+            'guru' => ['required', 'string'],
         ]);
 
         $kelas = Kelas::create([
             'nama_kelas' => $request->input('nama_kelas'),
             'jumlah_siswa' => $request->input('jumlah_siswa'),
             'jadwal_kelas' => $request->input('jadwal_kelas'),
+            'guru' => $request->input('guru'),
         ]);
 
         return redirect()->route('bimbel.index')->with('success', 'Kelas Baru Berhasil Ditambahkan');
@@ -47,14 +49,15 @@ class KelasController extends Controller
         $kelas->nama_kelas = $request->input('nama_kelas');
         $kelas->jumlah_siswa = $request->input('jumlah_siswa');
         $kelas->jadwal_kelas = $request->input('jadwal_kelas');
+        $kelas->guru = $request->input('guru');
         $kelas->save();
-        return redirect()->route('bimbel.index');
+        return redirect()->route('bimbel.index')->with('success', 'Kelas Berhasil Diperbaharui');
     }
 
     public function destroy($id)
     {
         $kelas = Kelas::find($id);
         $kelas->delete();
-        return redirect()->route('bimbel.index');
+        return redirect()->route('bimbel.index')->with('success', 'Kelas Berhasil Dihapus');
     }
 }

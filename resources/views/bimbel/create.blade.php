@@ -26,6 +26,11 @@
                                 <input type="text" class="form-control" id="jadwal_kelas" name="jadwal_kelas" required>
                             </div>
 
+                            <div class="form-group">
+                                <label for="guru">Nama Guru</label>
+                                <input type="text" class="form-control" id="guru" name="guru" required>
+                            </div>
+
                             <button type="submit" class="btn btn-sm btn-primary">Tambah Kelas</button>
                         </form>
                     </div>

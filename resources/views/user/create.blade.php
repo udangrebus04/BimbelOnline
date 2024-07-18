@@ -1,4 +1,4 @@
-@extends('layouts.app')
+ @extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -100,3 +100,7 @@
     </div>
 </div>
 @endsection
+
+<div>
+    <!-- Life is available only in the present moment. - Thich Nhat Hanh -->
+</div>

@@ -7,13 +7,14 @@
                 <div class="card">
                     <div class="card-header">Daftar Kelas</div>
                     <div class="card-body">
-                        @if (session('status'))
-                            <div class="alert alert-success" role="alert">
-                                {{ session('status') }}
-                            </div>
-                        @endif
+                        @if ($message = Session::get('success'))
+                        <div class="alert alert-success mt-2" role="alert">
+                            <p>{{ $message }}</p>
+                        </div>
+                    @endif
 
                         <table class="table table-striped">
+                            <h1 align="center">DAFTAR KELAS</h1>
                             <thead>
                                 <tr>
                                     <a href="{{ route('bimbel.create') }}" class="btn btn-sm btn-success">Tambah Kelas</a>
@@ -23,6 +24,7 @@
                                     <th>Nama Kelas</th>
                                     <th>Jumlah Siswa</th>
                                     <th>Jadwal Kelas</th>
+                                    <th>Nama Guru</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
@@ -33,6 +35,7 @@
                                         <td>{{ $k->nama_kelas }}</td>
                                         <td>{{ $k->jumlah_siswa }}</td>
                                         <td>{{ $k->jadwal_kelas }}</td>
+                                        <td>{{ $k->guru }}</td>
                                         <td>
                                             <a href="{{ route('bimbel.edit', $k->id) }}" class="btn btn-sm btn-primary">Edit</a>
                                             <form action="{{ route('bimbel.destroy', $k->id) }}" method="post" style="display: inline;">
