@@ -21,7 +21,7 @@
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
           <a href="#penawaran" class="text-sm font-semibold leading-6 text-gray-900">Penawaran</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">test</a>
+          <a href="#testimoni" class="text-sm font-semibold leading-6 text-gray-900">Testimoni</a>
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900">test</a>
           <a href="#about" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
         </div>
@@ -89,7 +89,7 @@
                         <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
                             <div class="flex flex-col w-full max-w-sm p-10 space-y-10 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                                 <div class="flex-shrink-0">
-                                    <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                                    <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-indigo-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
                                         Paket Tipe 1
                                     </h2>
                                 </div>
@@ -109,12 +109,12 @@
                                     </li>
                                 </ul>
             
-                                <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">Rp.50.000/bulan</button>
+                                <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.50.000/bulan</button>
                             </div>
             
                             <div class="flex flex-col w-full max-w-sm p-10 space-y-10 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                               <div class="flex-shrink-0">
-                                  <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                                  <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-indigo-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
                                       Paket Tipe 2
                                   </h2>
                               </div>
@@ -134,12 +134,12 @@
                                   </li>
                               </ul>
           
-                              <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">Rp.130.000/bulan</button>
+                              <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.130.000/bulan</button>
                           </div>
             
                           <div class="flex flex-col w-full max-w-sm p-10 space-y-10 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                             <div class="flex-shrink-0">
-                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-indigo-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
                                     Paket Tipe 3
                                 </h2>
                             </div>
@@ -158,81 +158,187 @@
                                     Akses bertanya PR
                                 </li>
                             </ul>
-                            <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">Rp.350.000/bulan</button>
+                            <button class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-indigo-500 rounded-lg hover:bg-indigo-700 focus:outline-none">Rp.350.000/bulan</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-      </div> 
+      </div>
+      
       <!-- component -->
-<footer class="relative bg-blueGray-200 pt-8 pb-6">
-  <div class="container mx-auto px-6">
-    <div class="flex flex-wrap text-left lg:text-left">
-      <div class="w-full lg:w-6/12 px-4">
-        <h4 id="about" class="text-3xl fonat-semibold text-blueGray-700">EDU PLUS +</h4>
-        <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
-          Jl. Dr. Saharjo No.161, Manggarai Selatan, Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12860
-        </h5>
-        <div class="mt-6 lg:mb-0 mb-6">
-          <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i class="fab fa-twitter"></i></button><button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i class="fab fa-dribbble"></i></button><button class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i class="fab fa-github"></i>
-          </button>
+<div class="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5">
+    <div class="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
+        <div class="w-full max-w-6xl mx-auto">
+            <div class="text-center max-w-xl mx-auto">
+                <h1 id="testimoni" class="text-6xl md:text-7xl font-bold mb-5 text-black-600">Testimoni Alumni</h1>
+                <h3 class="text-xl mb-5 font-light">Cerita dan pengalaman seru tentang EduPlus+ dari para alumni</h3>
+                <div class="text-center mb-10">
+                    <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                    <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                    <span class="inline-block w-40 h-1 rounded-full bg-indigo-500"></span>
+                    <span class="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                    <span class="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                </div>
+            </div>
+            <div class="-mx-3 md:flex items-start">
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=1" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Ayu Lestari</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Saya merasa terbantu dengan adanya EduPlus+. Tutor-tutornya sangat berpengalaman dan bisa memberikan penjelasan yang mudah dimengerti. EduPlus+ recommend untuk dicoba!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=2" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Gilang</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Saya sangat terkesan dengan kualitas EduPlus+. Materinya lengkap dan disajikan secara menarik. Dengan adanya latihan soal, saya sangat terbantu! EduPlus+ memberikan saya pengalaman belajar yang luar biasa<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=3" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Aldi Pratama</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Materinya mudah dimengerti. EduPlus+ memberikan saya pengalaman belajar yang sangat menyenangkan. Saya puas dengan hasil belajar saya selama menggunakan EduPlus+.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=4" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Eko Sanjaya</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Materi yang disajikan sangat komprehensif dan mudah dipahami. Tutor yang profesional yang siap membantu saya kapan saja. Berkat EduPlus+, nilai saya meningkat tinggi. Terima kasih EduPlus+!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 md:w-1/3">
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=5" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Dewi Anjani</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Saya mampu mempersiapkan diri saya dengan baik untuk ujian akhir berkat EduPlus+. Semua pelajaran yang sulit dipahami dapat saya selesaikan dengan mudah berkat adanya EduPlus+!<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                    <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                        <div class="w-full flex mb-4 items-center">
+                            <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                                <img src="https://i.pravatar.cc/100?img=6" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h6 class="font-bold text-sm uppercase text-gray-600">Ahmad Indra</h6>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Berikat EduPlus+, saya bisa lolos ke PTN yang saya inginkan. Matri yang lengkap dengan berbagai metode pembelajaran yang menarik dari setiap tutornya dengan mudah membuat saya mengerti. Terima kasih EduPlus+<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="w-full lg:w-6/12 px-4">
-        <div class="flex flex-wrap items-top mb-6">
-          <div class="w-full lg:w-4/12 px-4 ml-auto">
-            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
-            <ul class="list-unstyled">
-              <li>
-                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
-              </li>
-              <li>
-                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
-              </li>
-              <li>
-                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
-              </li>
-              <li>
-                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
-              </li>
-            </ul>
-          </div>
-          <div class="w-full lg:w-4/12 px-4">
-            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Syarat & Ketentuan</span>
-            <ul class="list-unstyled">
-              <li>
-                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">Kebijakan</a>
-              </li>
-              <li>
-                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Tentang Kami</a>
-              </li>
-              <li>
-                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Kontak Kami</a>
-              </li>
-              <li>
-                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Bantuan</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </div>
-    <hr class="my-6 border-blueGray-300">
-    <div class="flex flex-wrap items-center md:justify-between justify-center">
-      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-        <div class="text-sm text-blueGray-500 font-semibold py-1">
-          Copyright © <span id="get-current-year">2021</span><a href="https://www.creative-tim.com/product/notus-js" class="text-blueGray-500 hover:text-gray-800" target="_blank">Edu Plus by
-          <a href="https://www.creative-tim.com?ref=njs-profile" class="text-blueGray-500 hover:text-blueGray-800">Kelompok 5</a>.
+</div>
+
+      <!-- component -->
+      <footer class="relative bg-blueGray-200 pt-8 pb-6">
+        <div class="container mx-auto px-6">
+          <div class="flex flex-wrap text-left lg:text-left">
+            <div class="w-full lg:w-6/12 px-4">
+              <h4 id="about" class="text-3xl fonat-semibold text-blueGray-700">EduPlus+</h4>
+              <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+                Jl. Dr. Saharjo No.161, Manggarai Selatan, Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12860
+              </h5>
+              <div class="mt-6 lg:mb-0 mb-6">
+                <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                  <i class="fab fa-twitter"></i></button><button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                  <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                  <i class="fab fa-dribbble"></i></button><button class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                  <i class="fab fa-github"></i>
+                </button>
+              </div>
+            </div>
+            <div class="w-full lg:w-6/12 px-4">
+              <div class="flex flex-wrap items-top mb-6">
+                <div class="w-full lg:w-4/12 px-4 ml-auto">
+                  <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+                    </li>
+                    <li>
+                      <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+                    </li>
+                    <li>
+                      <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+                    </li>
+                    <li>
+                      <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="w-full lg:w-4/12 px-4">
+                  <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Syarat & Ketentuan</span>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">Kebijakan</a>
+                    </li>
+                    <li>
+                      <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Tentang Kami</a>
+                    </li>
+                    <li>
+                      <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Kontak Kami</a>
+                    </li>
+                    <li>
+                      <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Bantuan</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="my-6 border-blueGray-300">
+          <div class="flex flex-wrap items-center md:justify-between justify-center">
+            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+              <div class="text-sm text-blueGray-500 font-semibold py-1">
+                Copyright © <span id="get-current-year">2024</span><a href="" class="text-blueGray-500 hover:text-gray-800" target="_blank"> Edu Plus by
+                <a href="https://www.creative-tim.com?ref=njs-profile" class="text-blueGray-500 hover:text-blueGray-800">Kelompok 5</a>.
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</footer>
+      </footer>
       
       <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
         <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
