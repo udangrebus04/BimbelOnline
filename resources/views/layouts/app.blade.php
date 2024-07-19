@@ -1,12 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+z
     <title>{{ config('app.name', 'Bimbel') }}</title>
 
     <!-- Fonts -->
@@ -34,10 +32,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('user.index') }}">{{ __('User') }}</a>
                         </li>
-                    </ul>
-                    <ul class="navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('bimbel.index') }}">{{ __('Bimbel') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('bimbel.index') }}">{{ __('data anggota') }}</a>
                         </li>
                     </ul>
 
