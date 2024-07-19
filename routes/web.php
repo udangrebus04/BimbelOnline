@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\KelasController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\MateriController;
+use App\Http\Controllers\SdController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\SubsController;
 use App\Http\Controllers\UserController;
@@ -42,3 +44,7 @@ Route::get('/siswa.index', [SiswaController::class, 'index'])->name('/siswa.inde
 
 Route::get('register', [RegisterController::class, 'showRegistrationForm'])->name('register');
 Route::post('register', [RegisterController::class, 'register'])->name('register');
+
+Route::get('/siswa.sd.index', [SdController::class, 'index'])->name('/siswa.sd.index');
+Route::get('/siswa.sd.materi', [MateriController::class, 'index'])->name('/siswa.sd.materi');
+Route::get('/siswa.sd.matematika', [MateriController::class, 'matematika'])->name('/siswa.sd.matematika');

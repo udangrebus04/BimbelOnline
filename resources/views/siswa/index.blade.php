@@ -52,7 +52,7 @@
             </p>
           </div>
           <div class="px-1 py-4">
-            <a href="#" class="text-blue-500 hover:underline">Lihat Kelas</a>
+            <a href="/siswa.sd.index" class="text-blue-500 hover:underline">Lihat Kelas</a>
           </div>
         </div>
         <div class="bg-white rounded-lg border p-4">
