@@ -91,7 +91,6 @@
             <a href="#" class="text-blue-500 hover:underline">Lihat Kelas</a>
           </div>
         </div>
-        <!-- Add more items as needed -->
       </div>
     </div>
   </div>
